@@ -1,4 +1,4 @@
-object palindrom extends App{
+/*object palindrom extends App{
   def jestPalindromem(tab:Array[Int]):Boolean={
     def helper(tab:Array[Int],acc:Int=0):Boolean={
 
@@ -11,5 +11,5 @@ object palindrom extends App{
     if (helper(tab)) true
     else false
 }
-}
+}*/
 //w zadaniu 6 dwa akumulatory

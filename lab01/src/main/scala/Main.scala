@@ -9,8 +9,6 @@ object Main extends App {
     if(liczba%i==0){
     println("nie jest pierwsza")
     }
-    else
-    println("jest")
     i=i+1
   }
   }

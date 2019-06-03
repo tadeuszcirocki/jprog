@@ -34,13 +34,14 @@ object Code extends App {
   println("podaj tekst do szyfrowania")
 
   //var input = io.StdIn.readLine()
-  var input = "bbbbbbbbbbbbbbbbbbbbbbbb"
+  val input = "bbbbbbbbbbbbbbbbbbbbbbbb"
 
-  var haslo ="PAWIANYWCHODZANASCIANY"
+  val haslo ="PAWIANYWCHODZANASCIANY"
   i=0
-  var zaszyfrowane ="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  var zaszyfrowane ="bbbbbbbbbbbbbbbbbbbbbbbb"
   while(i<input.length){
-    var zaszyfrowanejakoliczba(i) = input(i).asDigit + haslo(i).asDigit - 64
+    
+    val zaszyfrowanejakoliczba(i) = input(i).asDigit + haslo(i).asDigit - 64
     zaszyfrowane(i)=(char)zaszyfrowanejakoliczba(i)
     i=i+1
   }
