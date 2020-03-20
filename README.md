@@ -1,1 +1,1 @@
-# jprog
+Języki programowania (Scala) laboratoria
